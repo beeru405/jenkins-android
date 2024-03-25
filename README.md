@@ -71,7 +71,9 @@ give gradle commands
 clean
 assembleDebug
 ```
-execute shell give adb command
+execute shell give adb command 
+
+give path of adb and apk file located
 ```
 /usr/lib/tools/android-sdk/platform-tools/adb install /var/lib/jenkins/workspace/android-cicd/app/build/outputs/apk/debug/app-debug.apk
 ```
